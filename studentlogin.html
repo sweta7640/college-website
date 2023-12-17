@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            align-items: center;
+        }
+
+        .container {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            display: grid;
+            place-items: center;
+            background-color: rgb(202, 226, 237); 
+        }
+
+        .box {
+           
+            padding-top: 10px;
+            height: 300px;
+            width: 350px;
+            background-color:white;
+            border-radius: 5px;
+            border: 2px solid black;
+            justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+            
+        }
+
+        .box input {
+            height: 40px;
+            width: 250px;
+            background-color: transparent;
+            justify-content: center;
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgb(11, 11, 242);
+            border-radius: 5px;
+            margin: 12px;
+            margin-left: 40px;
+            text-align: center;
+            justify-content: center;
+            font-size: medium;
+            }
+/* 
+        .box input {
+            height: 40px;
+            width: 250px;
+            background-color: transparent;
+            border-width: 1px;
+            border-style: solid;
+            border-color: blue;
+            border-radius: 5px;
+            margin: 12px;
+            margin-left: 40px;
+            text-align: center;
+            justify-content: center;
+            font-size: medium;
+
+        } */
+
+        .box3 {
+            height: 40px;
+            width: 250px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: blue;
+            border-radius: 5px;
+            background-color: blue;
+            color: white;
+            margin: 15px;
+            text-align: center;
+            /* justify-content: center; */
+            margin-left: 40px;
+            font-size: medium;
+            font-weight: bold;
+
+
+        }
+
+        .box4 {
+            height: 40px;
+            width: 250px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: blue;
+            border-radius: 5px;
+            background-color:rgb(8, 150, 8);
+            margin: 15px;
+            margin-left: 40px;
+            text-align: center;
+            justify-content: center;
+            padding-top: 3px;
+            font-size: medium;
+            color: whitesmoke;
+            font-weight: bold;
+
+            
+
+        }
+        h4{
+            text-align: center;
+            color: rgb(10, 10, 36);
+        }
+        h4:hover{
+            color: rgb(177, 177, 226);
+        }
+        .box4:hover{
+            background-color: rgb(91, 164, 91);
+        }
+        .box4:active{
+            background-color: rgb(6, 48, 6);
+        } 
+        .box3:hover{
+            background-color: rgb(112, 112, 243);
+        }
+        .box3:active{
+            background-color: rgb(2, 2, 56);
+        }
+
+                   </style>
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <input type="text" placeholder="Enter Username">
+            <input type="password" placeholder="Enter password">
+            <div class="box3">Login</div>
+            <h4>Forget password</h4>
+            <div class="box4">Create account</div>
+        </div>
+    </div>
+</body>
+    
+
+
+</html>
